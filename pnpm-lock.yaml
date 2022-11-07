@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@solidjs/router': ^0.5.0
   solid-js: ^1.5.1
+  solid-transition-group: ^0.0.12
   vite: ^3.0.9
   vite-plugin-solid: ^2.3.0
 
 dependencies:
   '@solidjs/router': 0.5.0_solid-js@1.5.1
   solid-js: 1.5.1
+  solid-transition-group: 0.0.12_solid-js@1.5.1
 
 devDependencies:
   vite: 3.0.9
@@ -829,6 +831,14 @@ packages:
       '@babel/types': 7.18.8
       solid-js: 1.5.1
     dev: true
+
+  /solid-transition-group/0.0.12_solid-js@1.5.1:
+    resolution: {integrity: sha512-Eu4MfNZSSxM67C+4EXaoDiWr4BFbDLg3j30JQJgQEIH9UDOfgNPfZlsFDhT/PxwJqhe6sn85W+dbmYJzBmjpAA==}
+    peerDependencies:
+      solid-js: ^1.0.0
+    dependencies:
+      solid-js: 1.5.1
+    dev: false
 
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}

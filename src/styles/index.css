@@ -1,6 +1,17 @@
 body {
   margin: 0;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  overflow-x: hidden;
 }
 
+a:-webkit-any-link{
+color: white;
+text-decoration: none;
+}
+
+.container {
+  /* margin-top: 80px; */
+}

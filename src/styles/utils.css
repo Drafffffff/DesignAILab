@@ -1,0 +1,151 @@
+.menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+}
+
+.menu-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+.menu-left-year {
+  margin-left: 35px;
+  font-size: 14px;
+}
+
+.menu-right {
+  flex: 2;
+  border-left: 1px white solid;
+  padding: 0 15px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-item {
+  height: 120px;
+  border-bottom: 1px white solid;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+  /* padding:35px 0px; */
+}
+
+.menu-item:hover {
+  background-color: #fff;
+  color: black;
+  user-select: none;
+}
+.menu-item-en {
+  font-size: 80px;
+  cursor: pointer;
+}
+.menu-item-zh {
+  font-size: 32px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.menu-item:hover .menu-item-zh {
+  color: black;
+}
+
+.menu-item:hover .menu-item-en {
+  color: black;
+}
+
+.menu-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.menu-info-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.menu-close {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 26px;
+  right: 50px;
+  background-color: #000;
+  user-select: none;
+  cursor: pointer;
+}
+
+.menu-close img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  height: 600px;
+  /* background-color:aqua; */
+  background-image: url("/footerBg.png");
+  background-size: cover;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+
+.footer-top {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top-detail{
+font-size: 14px;
+}
+.footer-bottom {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom-info{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.footer-bottom-title{
+  display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.footer-bottom-title h1{
+  font-size: 105px;
+  font-weight: 350;
+  margin: 0px;
+  line-height: 90px;
+  display: inline;
+  text-align: right;
+}
+
+.footer-bottom-info p{
+margin: 1px 0;
+font-size: 12px;
+line-height: 18px;
+}
+
+.notFound{
+  font-size: 500px;
+  text-align: center;
+  font-weight: bolder;
+}
