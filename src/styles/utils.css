@@ -144,8 +144,28 @@ font-size: 12px;
 line-height: 18px;
 }
 
+
+/* 
+------------------notFound------------------
+*/
 .notFound{
   font-size: 500px;
   text-align: center;
   font-weight: bolder;
+}
+
+
+/* 
+------------------navigator------------------
+*/
+.navigator {
+  margin: 140px 50px 0 50px;
+}
+.navigator-nav {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.navigator-title {
+  font-size: 78px;
+  font-weight: 400;
 }
